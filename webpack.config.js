@@ -5,7 +5,7 @@ const APP_DIR = path.resolve(__dirname, 'src/app');
 
 const config = {
 	entry: [
-  	'webpack-hot-middleware/client',
+  		'webpack-hot-middleware/client',
  		path.join(APP_DIR, "/index.js") // Your appʼs entry point
 	],
 	output: {
